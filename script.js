@@ -121,7 +121,7 @@ function checkAnswer(answer) {
         runningQuestion++;
         renderQuestion();
     }else{
-        clearIntercal(TIMER);
+        clearInterval(TIMER);
         scoreRender();
     };
 };
@@ -133,7 +133,7 @@ function answerIsCorrect() {
 //if the answer is incorrect, display "incorrect"//
 function answerIsIncorrect() {
     document.getElementById(runningQuestion);
-    document,write("incorrect!");
+    document.write("incorrect!");
 };
 //render the score in percentage//
 function scoreRender() {

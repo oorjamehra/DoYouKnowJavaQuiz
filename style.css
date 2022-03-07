@@ -1,0 +1,26 @@
+container {
+justify-content:center;
+align-items:center
+};
+
+h1 {
+align-items:center;
+justify-content: center;
+font-weight: bold;
+font-size: 100px;
+color: black
+};
+
+.p {
+    align-items: center;
+    justify-content: center;
+};
+.body {
+background-color: white;
+}
+
+#startButton {
+    color: purple;
+    justify-content: center;
+    align-items: center;
+}
